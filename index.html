@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modern Border Effect Demo</title>
+    <link rel="stylesheet" href="modern-border.css">
+    <style>
+        /* 背景色を暗めに設定 */
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            margin: 0;
+            background-color: #1a1a1a; /* 暗い背景色 */
+            font-family: Arial, sans-serif;
+            color: #ffffff; /* テキストを白に */
+        }
+
+        /* 見出しのスタイル */
+        h1 {
+            margin-bottom: 20px;
+        }
+
+        /* 各ボックスのスタイル */
+        .modern-border {
+            width: 200px;
+            height: 100px;
+            margin: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            background-color: #333333; /* ボックスも暗め */
+            border-radius: 8px; /* 角丸 */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6); /* ボックスに影を追加 */
+            color: #ffffff; /* ボックス内のテキストを白に */
+        }
+    </style>
+</head>
+<body>
+    <h1>Modern Border Effect Demo</h1>
+    <div class="modern-border">
+        <p>Default Style</p>
+    </div>
+    <div class="modern-border warning">
+        <p>Warning Style</p>
+    </div>
+    <div class="modern-border info">
+        <p>Info Style</p>
+    </div>
+    <div class="modern-border success">
+        <p>Success Style</p>
+    </div>
+    <div class="modern-border error">
+        <p>Error Style</p>
+    </div>
+    <script src="modern-border.js"></script>
+</body>
+</html>
