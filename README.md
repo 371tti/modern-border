@@ -8,7 +8,7 @@
 ---
 
 ## **デモ**
-![デモ](example.gif)
+https://371tti.github.io/modern-border.js/
 
 ---
 
