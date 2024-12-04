@@ -7,7 +7,7 @@ This project provides a CSS and JavaScript setup for applying dynamic modern bor
 ---
 
 ## **Demo**
-![Demo](example.gif)
+https://371tti.github.io/modern-border.js/
 
 ---
 
