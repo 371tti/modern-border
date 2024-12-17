@@ -53,7 +53,3 @@ The following preset styles are available:
 
 - You can edit styles in `modern-border.css`.
 - Modify behavior in `modern-border.js`.
-
----
-
-以上で、日本語版と英語版の両方が完成です。GIF画像を同じディレクトリに配置することで、READMEにデモとして表示されます。ファイル構造に応じてリンクを調整してください。
