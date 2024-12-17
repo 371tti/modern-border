@@ -53,3 +53,5 @@ The following preset styles are available:
 
 - You can edit styles in `modern-border.css`.
 - Modify behavior in `modern-border.js`.
+
+---
